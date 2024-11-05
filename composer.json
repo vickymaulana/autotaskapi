@@ -1,0 +1,23 @@
+{
+    "name": "vickymaulana/autotaskapi",
+    "description": "A Laravel package to simplify creating a tasks API.",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "vickymaulana\\TasksApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "vickymaulana\\TasksApi\\TasksServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
